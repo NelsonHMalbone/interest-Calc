@@ -35,3 +35,10 @@ total = principle * pow((1 + rate / 100), time)
 # will rise to the power of time
 
 print(f'Balance after {time} year/s: ${total:.2f}')
+
+# if you undo the <= to just < 0 it will go straight to the print
+# statement because the we dont get the chance to enter details because
+# all three statements are false.
+
+# so if you do while True: and do the if statement will continuous to run:
+# but when you do else break it will break out of the while loop

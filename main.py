@@ -27,3 +27,11 @@ while time <= 0:
     # this will inform user principle cant be less or equal to 0
     if time <= 0:
         print("Time cant be less or equal to 0")
+
+total = principle * pow((1 + rate / 100), time)
+
+# take the principle * 1 then add the rate and divide by 100 and creates a deciminal
+# using the pow() function
+# will rise to the power of time
+
+print(f'Balance after {time} year/s: ${total:.2f}')

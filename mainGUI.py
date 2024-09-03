@@ -37,18 +37,18 @@ def main():
         match event:
             case 'principles':
                 while principle <= 0:
-                    principle = float(input(principleInput))
+                    principle = float(principleInput)
                     if principle <= 0:
                         print("principle cant be less or equal to 0")
 
             case 'rates':
                 while rate <= 0:
-                    rate = float(input(rateInput))
+                    rate = float(rateInput)
                     if rate <= 0:
                         print("Interest rate cant be less or equal to 0")
             case 'times':
                 while time <= 0:
-                    time = int(input(timeInput))
+                    time = int(timeInput)
                     if time <= 0:
                         print("Time cant be less or equal to 0")
 
